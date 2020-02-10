@@ -1,0 +1,42 @@
+class Animal():
+    def __init__(self, name,sound,eat):
+        self.name = name
+        self.sound = sound
+        self.eat = eat
+
+    def speak(self):
+        print("I am", self.name, "I ", self.eat, " and I", self.sound, "loudly")
+
+class Dog(Animal):
+    def __init__(self, name, sound,eat):
+        self.name = name
+        self.sound = sound
+        self.type = "dog"
+        self.eat = eat
+
+class Cat(Animal):
+    def __init__(self, name, sound,eat):
+        self.name = name
+        self.sound = sound
+        self.type = "Cat"
+        self.eat = eat
+
+    
+
+
+Rax = Dog("RAX", "bark","eat")
+Rax.speak()
+Stormy = Cat("Stormy" , "meow","eat")
+Stormy.speak() 
+
+    
+
+
+
+
+
+        
+        
+
+
+    
