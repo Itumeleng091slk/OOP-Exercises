@@ -1,53 +1,25 @@
 class Animal():
-    def __init__(self, name,sound,eat):
-        self.name = name
-        self.sound = sound
-        self.eat = eat
-
-    def speak(self):
-        print("I am", self.name, "I ", self.eat, " and I", self.sound, "loudly")
-
-class Dog(Animal):
-    def __init__(self, name, sound,eat):
-        self.name = name
-        self.sound = sound
-        self.type = "dog"
-        self.eat = eat
-
-class Cat(Animal):
-    def __init__(self, name, sound,eat):
-        self.name = name
-        self.sound = sound
-        self.type = "Cat"
-        self.eat = eat
-
     
-
-
-Rax = Dog("RAX", "bark","eat")
-Rax.speak()
-Stormy = Cat("Stormy" , "meow","eat")
-Stormy.speak() 
-
-    
-class Animal():
     def name(self):
         pass
     def sound(self):
         pass
     def eat(self):
         pass
+
 class Dog(Animal):
+    
     def sound(self):
-        print("My Dog barks")
+        print("A Dog barks")
     def eat(self):
-        print("Rax eats")
+        print("Rax eats")  
 
 class Cat(Animal):
+        
     def sound(self):
-        print("My cat meows")
+        print("A cat meows")
     def eat(self):
-        print("stormy eats")
+        print("Stormy eats") 
 
 dog = Dog()
 cat = Cat()
@@ -55,6 +27,20 @@ cat.sound ()
 dog.sound ()
 dog.eat()
 cat.eat()
+
+
+
+
+
+
+
+        
+        
+
+
+    
+
+    
 
 
 
