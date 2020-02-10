@@ -30,7 +30,31 @@ Stormy = Cat("Stormy" , "meow","eat")
 Stormy.speak() 
 
     
+class Animal():
+    def name(self):
+        pass
+    def sound(self):
+        pass
+    def eat(self):
+        pass
+class Dog(Animal):
+    def sound(self):
+        print("My Dog barks")
+    def eat(self):
+        print("Rax eats")
 
+class Cat(Animal):
+    def sound(self):
+        print("My cat meows")
+    def eat(self):
+        print("stormy eats")
+
+dog = Dog()
+cat = Cat()
+cat.sound ()
+dog.sound ()
+dog.eat()
+cat.eat()
 
 
 
