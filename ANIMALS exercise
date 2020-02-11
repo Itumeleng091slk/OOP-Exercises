@@ -1,52 +1,25 @@
-class Animal():
-    
-    def name(self):
-        pass
-    def sound(self):
-        pass
-    def eat(self):
-        pass
-
+class Animal:
+    def __init__(self, name, sounds,eat):
+        self.name = name
+        self.sounds = sounds
+        
 class Dog(Animal):
-    
+    def DogName(self):
+        return('Rax')     
     def sound(self):
-        print("A Dog barks")
-    def eat(self):
-        print("Rax eats")  
+        return("barks") 
+    def eats(self):
+        return("eat")
 
 class Cat(Animal):
-        
+    def CatName(self):
+        return('stormy') 
     def sound(self):
-        print("A cat meows")
-    def eat(self):
-        print("Stormy eats") 
+        return("meow")  
+    def eats(self):
+        return("eat")
 
-dog = Dog()
-cat = Cat()
-cat.sound ()
-dog.sound ()
-dog.eat()
-cat.eat()
-
-
-
-
-
-
-
-        
-        
-
-
-    
-
-    
-
-
-
-
-        
-        
-
-
-    
+d = Dog(' ',' ',' ')
+c = Cat(' ',' ',' ')
+print(d.DogName() + " " + d.sound()+ " " + " and" + " " + d.eats())
+print(c.CatName() + " " + c.sound()+ " " + "and" +  " " +c.eats())
